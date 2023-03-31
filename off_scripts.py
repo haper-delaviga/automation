@@ -24,8 +24,6 @@ def main():
         log(f"寫死域名: {key}")
         log(f"網址: {value}")
 
-    # if not cli_setup():
-    #     auto_setup(__file__, logdir=True, devices=["Android:///", ], project_root=os.path.dirname(os.path.realpath(__file__)))
 
     # init AndroidPhone
     realme_narzo50i = AndroidPhone("seo_domain.ini")
